@@ -31,19 +31,19 @@ const Calculator = () => {
         ['7', '8', '9', 'x'],
         ['4', '5', '6', '-'],
         ['1', '2', '3', '+'],
+        ['0', '.', '='],
       ].map((row) => (
         <ul key={`row${row[0]}`}>
           {row.map((btn) => (
-            <Keys key={btn} btn={btn} clickHandler={() => handleClick(btn)} />
+            <Keys
+              key={btn}
+              cName={btn === '0' ? 'zero' : ''}
+              btn={btn}
+              clickHandler={() => handleClick(btn)}
+            />
           ))}
         </ul>
       ))}
-      <ul>
-        <Keys btn="0" cName="zero" clickHandler={() => handleClick('0')} />
-        {['.', '='].map((btn) => (
-          <Keys key={btn} btn={btn} clickHandler={() => handleClick(btn)} />
-        ))}
-      </ul>
     </div>
   );
 };
