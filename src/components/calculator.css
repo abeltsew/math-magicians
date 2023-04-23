@@ -30,6 +30,12 @@ ul {
   font-size: 1.5rem;
 }
 
+.btn-key {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+}
+
 li {
   background-color: rgb(212, 210, 206);
   flex: 1;
