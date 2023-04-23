@@ -12,7 +12,7 @@ const Calculator = () => (
       <Keys btn="AC" />
       <Keys btn="+/-" />
       <Keys btn="%" />
-      <Keys btn="/" cName="yellow" />
+      <Keys btn="÷" cName="yellow" />
     </ul>
     <ul className="row2">
       <Keys btn="7" />
