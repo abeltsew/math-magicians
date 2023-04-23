@@ -1,9 +1,9 @@
-function App() {
-  return (
-    <div className="App">
-      <p>Welcome to react</p>
-    </div>
-  );
-}
+import Calculator from './components/Calculator';
+
+const App = () => (
+  <div className="App">
+    <Calculator />
+  </div>
+);
 
 export default App;
