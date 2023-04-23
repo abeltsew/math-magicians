@@ -10,6 +10,21 @@ ul {
   width: 100%;
 }
 
+li {
+  background-color: rgb(212, 210, 206);
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0;
+  border: solid white 1px;
+  font-size: 0.7rem;
+}
+
+ul li:last-child {
+  background-color: rgb(237, 132, 20);
+}
+
 .calculator {
   display: flex;
   flex-direction: column;
@@ -34,21 +49,6 @@ ul {
   border: none;
   background-color: transparent;
   width: 100%;
-}
-
-li {
-  background-color: rgb(212, 210, 206);
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0.5rem 0;
-  border: solid white 1px;
-  font-size: 0.7rem;
-}
-
-.yellow {
-  background-color: rgb(237, 132, 20);
 }
 
 .zero {
