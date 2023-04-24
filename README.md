@@ -23,8 +23,7 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Math magician <a name="about-project"></a>
-
-> This site is built as part of an exercise at Microverse. The site is about a Math magician
+This site is built as part of an exercise at Microverse. The site is about a Math magician The Math magician project  is a calculator app I created with react js👌, the user can solve any calculations by the app.
 
 **The Math magician project** i
 
@@ -32,7 +31,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> This project is built with HTML and CSS and javascript for the most part.
 
 <details>
   <summary>Client</summary>
@@ -55,28 +53,20 @@
   </ul>
 </details>
 
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="#">No Databse</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **Explore Casts**
-- **About page**
-- **Buy Tickets**
+- **Get call from Api**
+- **Full calculator service**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> This project is made using Mostly HTML and CSS
 
 To get a local copy up and running, follow these steps.
 
@@ -99,15 +89,33 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
-npm install
+```sh
+  node.js V16 and above
+```
+
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project:
 
 ```sh
- npmrun dev
+  use git bash to open in Vs code
 ```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  npx hint .
+
+  npx stylelint "**/*.{css,scss}" ' 
+```
+
+to check linter errors.
+
+
+### Deployment
 
 --->
 
@@ -125,7 +133,6 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> In the Future the project may include
 
 - [ ] **Live Chat**
 - [ ] **Twitter Feed**
