@@ -61,6 +61,7 @@ This site is built as part of an exercise at Microverse. The site is about a Mat
 - **Get call from Api**
 - **Full calculator service**
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -101,7 +102,6 @@ To run the project:
   use git bash to open in Vs code
 ```
 
-
 ### Run tests
 
 To run tests, run the following command:
@@ -117,10 +117,7 @@ to check linter errors.
 
 ### Deployment
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
+--->
 
 ## 👥 Authors <a name="authors"></a>
 
