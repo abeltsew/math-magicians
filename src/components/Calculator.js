@@ -1,43 +1,51 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './calculator.css';
 
 import Keys from './Keys';
+import calculate from './calculate';
 
-const Calculator = () => (
-  <div className="calculator">
-    <div className="result">
-      <p>0</p>
+const Calculator = () => {
+  const [obj, setObj] = useState({
+    total: 0,
+    next: null,
+    operation: null,
+  });
+
+  const handleClick = (btn) => {
+    setObj(calculate(obj, btn));
+  };
+
+  return (
+    <div className="calculator">
+      <div className="result">
+        <p>
+          {obj?.total}
+          {' '}
+          {obj?.operation}
+          {' '}
+          {obj?.next}
+        </p>
+      </div>
+      {[
+        ['AC', '+/-', '%', '÷'],
+        ['7', '8', '9', 'x'],
+        ['4', '5', '6', '-'],
+        ['1', '2', '3', '+'],
+        ['0', '.', '='],
+      ].map((row) => (
+        <ul key={`row${row[0]}`}>
+          {row.map((btn) => (
+            <Keys
+              key={btn}
+              cName={btn === '0' ? 'zero' : ''}
+              btn={btn}
+              clickHandler={() => handleClick(btn)}
+            />
+          ))}
+        </ul>
+      ))}
     </div>
-    <ul className="row1">
-      <Keys btn="AC" />
-      <Keys btn="+/-" />
-      <Keys btn="%" />
-      <Keys btn="÷" cName="yellow" />
-    </ul>
-    <ul className="row2">
-      <Keys btn="7" />
-      <Keys btn="8" />
-      <Keys btn="9" />
-      <Keys btn="x" cName="yellow" />
-    </ul>
-    <ul className="row3">
-      <Keys btn="4" />
-      <Keys btn="5" />
-      <Keys btn="6" />
-      <Keys btn="-" cName="yellow" />
-    </ul>
-    <ul className="row4">
-      <Keys btn="1" />
-      <Keys btn="2" />
-      <Keys btn="3" />
-      <Keys btn="+" cName="yellow" />
-    </ul>
-    <ul className="row5">
-      <Keys btn="0" cName="zero" />
-      <Keys btn="." />
-      <Keys btn="=" cName="yellow" />
-    </ul>
-  </div>
-);
+  );
+};
 
 export default Calculator;
