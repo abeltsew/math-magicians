@@ -23,7 +23,7 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Math magician <a name="about-project"></a>
-
+This site is built as part of an exercise at Microverse. The site is about a Math magician The Math magician project  is a calculator app I created with react js👌, the user can solve any calculations by the app.
 
 **The Math magician project** i
 
@@ -53,12 +53,6 @@
   </ul>
 </details>
 
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="#">No Databse</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
@@ -131,7 +125,6 @@ You can deploy this project using github pages
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> In the Future the project may include
 
 - [ ] **Live Chat**
 - [ ] **Twitter Feed**
