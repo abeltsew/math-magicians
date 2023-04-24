@@ -58,9 +58,8 @@ This site is built as part of an exercise at Microverse. The site is about a Mat
 
 ### Key Features <a name="key-features"></a>
 
-- **Explore Casts**
-- **About page**
-- **Buy Tickets**
+- **Get call from Api**
+- **Full calculator service**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
