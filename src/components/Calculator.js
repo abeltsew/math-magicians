@@ -3,7 +3,6 @@ import './calculator.css';
 
 import Keys from './Keys';
 import calculate from './calculate';
-import Quote from './Quote';
 
 const Calculator = () => {
   const [obj, setObj] = useState({
@@ -45,7 +44,6 @@ const Calculator = () => {
           ))}
         </ul>
       ))}
-      <Quote />
     </div>
   );
 };

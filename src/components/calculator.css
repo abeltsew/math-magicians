@@ -31,7 +31,6 @@ ul li:last-child {
   align-items: center;
   justify-content: center;
   border: 1px solid #fff;
-  height: 100vh;
   padding: 0 25%;
 }
 

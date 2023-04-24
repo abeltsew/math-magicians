@@ -31,7 +31,7 @@ const Quote = () => {
   }
   if (hasError) return <div>Something went wrong!</div>;
   return (
-    <div>
+    <div className="quote">
       <blockquote>{`"${quote.quote}"`}</blockquote>
       <p className="author">{quote.author}</p>
     </div>
