@@ -89,23 +89,35 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
-npm install
+```sh
+  node.js V16 and above
+```
+
 
 ### Usage
 
-To run the project, execute the following command:
-
-<!--
-Example command:
+To run the project:
 
 ```sh
- index.html
+  use git bash to open in Vs code
 ```
---->
+
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  npx hint .
+
+  npx stylelint "**/*.{css,scss}" ' 
+```
+
+to check linter errors.
+
 
 ### Deployment
 
-You can deploy this project using github pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
