@@ -24,7 +24,6 @@
 
 # 📖 Math magician <a name="about-project"></a>
 
-> This site is built as part of an exercise at Microverse. The site is about a Math magician
 
 **The Math magician project** i
 
@@ -32,7 +31,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> This project is built with HTML and CSS and javascript for the most part.
 
 <details>
   <summary>Client</summary>
@@ -75,8 +73,6 @@
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> This project is made using Mostly HTML and CSS
 
 To get a local copy up and running, follow these steps.
 
