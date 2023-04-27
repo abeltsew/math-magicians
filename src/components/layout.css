@@ -1,0 +1,36 @@
+.nav-bar {
+  margin-bottom: 3rem;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  padding: 0.5rem 10%;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo {
+  flex: 1;
+}
+
+.link {
+  padding: 0 1rem;
+}
+
+.links .link:last-child ::before {
+  content: '|';
+  position: relative;
+  right: 1rem;
+}
+
+.links .link:nth-child(2) ::after {
+  content: '|';
+  position: relative;
+  left: 1rem;
+}
+
+.routes {
+  text-decoration: none;
+  color: black;
+}
