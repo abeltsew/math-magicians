@@ -1,0 +1,14 @@
+.home-container,
+.home-description,
+.home-title {
+  padding: 0 5%;
+}
+
+.home-title {
+  margin-bottom: 2rem;
+}
+
+.new-line {
+  display: block;
+  padding-top: 2rem;
+}

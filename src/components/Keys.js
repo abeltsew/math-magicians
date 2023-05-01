@@ -1,7 +1,7 @@
 import React from 'react';
 
 const keys = ({ btn, cName, clickHandler }) => (
-  <li className={cName}>
+  <li className={`${cName} li`}>
     <button
       onClick={clickHandler}
       onKeyDown={clickHandler}

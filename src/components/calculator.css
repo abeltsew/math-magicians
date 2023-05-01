@@ -4,13 +4,19 @@
   box-sizing: border-box;
 }
 
-ul {
+.calc {
+  display: flex;
+  flex: 1;
+  padding: 0 10%;
+}
+
+.calc-btn {
   list-style: none;
   display: flex;
   width: 100%;
 }
 
-li {
+.li {
   background-color: rgb(212, 210, 206);
   flex: 1;
   display: flex;
@@ -21,7 +27,7 @@ li {
   font-size: 0.7rem;
 }
 
-ul li:last-child {
+.calc-btn li:last-child {
   background-color: rgb(237, 132, 20);
 }
 
@@ -31,7 +37,8 @@ ul li:last-child {
   align-items: center;
   justify-content: center;
   border: 1px solid #fff;
-  padding: 0 25%;
+  padding: 0 10%;
+  flex: 1;
 }
 
 .result {
