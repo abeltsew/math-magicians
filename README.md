@@ -6,6 +6,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+- [Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -63,6 +64,12 @@ This site is built as part of an exercise at Microverse. The site is about a Mat
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Live Demo <a name="getting-started"></a> -->
+
+[Live Demo](https://math-magician2-3o2y.onrender.com)
+
+
 
 <!-- GETTING STARTED -->
 
