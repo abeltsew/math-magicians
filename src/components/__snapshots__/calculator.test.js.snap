@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render 1`] = `
+<div
+  className="calc"
+>
+  <h1>
+    Lets do some Math
+  </h1>
+  <div
+    className="calculator"
+  >
+    <div
+      className="result"
+    >
+      <p>
+        0
+         
+         
+      </p>
+    </div>
+    <ul
+      className="calc-btn"
+    >
+      <li
+        className=" li"
+      >
+        <button
+          className="btn-key"
+          id="AC"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="button"
+        >
+          AC
+        </button>
+      </li>
+      <li
+        className=" li"
+      >
+        <button
+          className="btn-key"
+          id="+/-"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="button"
+        >
+          +/-
+        </button>
+      </li>
+      <li
+        className=" li"
+      >
+        <button
+          className="btn-key"
+          id="%"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="button"
+        >
+          %
+        </button>
+      </li>
+      <li
+        className=" li"
+      >
+        <button
+          className="btn-key"
+          id="÷"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="button"
+        >
+          ÷
+        </button>
+      </li>
+    </ul>
+    <ul
+      className="calc-btn"
+    >
+      <li
+        className=" li"
+      >
+        <button
+          className="btn-key"
+          id="7"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="button"
+        >
+          7
+        </button>
+      </li>
+      <li
+        className=" li"
+      >
+        <button
+          className="btn-key"
+          id="8"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="button"
+        >
+          8
+        </button>
+      </li>
+      <li
+        className=" li"
+      >
+        <button
+          className="btn-key"
+          id="9"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="button"
+        >
+          9
+        </button>
+      </li>
+      <li
+        className=" li"
+      >
+        <button
+          className="btn-key"
+          id="x"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="button"
+        >
+          x
+        </button>
+      </li>
+    </ul>
+    <ul
+      className="calc-btn"
+    >
+      <li
+        className=" li"
+      >
+        <button
+          className="btn-key"
+          id="4"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="button"
+        >
+          4
+        </button>
+      </li>
+      <li
+        className=" li"
+      >
+        <button
+          className="btn-key"
+          id="5"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="button"
+        >
+          5
+        </button>
+      </li>
+      <li
+        className=" li"
+      >
+        <button
+          className="btn-key"
+          id="6"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="button"
+        >
+          6
+        </button>
+      </li>
+      <li
+        className=" li"
+      >
+        <button
+          className="btn-key"
+          id="-"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="button"
+        >
+          -
+        </button>
+      </li>
+    </ul>
+    <ul
+      className="calc-btn"
+    >
+      <li
+        className=" li"
+      >
+        <button
+          className="btn-key"
+          id="1"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="button"
+        >
+          1
+        </button>
+      </li>
+      <li
+        className=" li"
+      >
+        <button
+          className="btn-key"
+          id="2"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="button"
+        >
+          2
+        </button>
+      </li>
+      <li
+        className=" li"
+      >
+        <button
+          className="btn-key"
+          id="3"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="button"
+        >
+          3
+        </button>
+      </li>
+      <li
+        className=" li"
+      >
+        <button
+          className="btn-key"
+          id="+"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="button"
+        >
+          +
+        </button>
+      </li>
+    </ul>
+    <ul
+      className="calc-btn"
+    >
+      <li
+        className="zero li"
+      >
+        <button
+          className="btn-key"
+          id="0"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="button"
+        >
+          0
+        </button>
+      </li>
+      <li
+        className=" li"
+      >
+        <button
+          className="btn-key"
+          id="."
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="button"
+        >
+          .
+        </button>
+      </li>
+      <li
+        className=" li"
+      >
+        <button
+          className="btn-key"
+          id="="
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="button"
+        >
+          =
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
