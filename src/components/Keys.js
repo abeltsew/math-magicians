@@ -3,6 +3,7 @@ import React from 'react';
 const keys = ({ btn, cName, clickHandler }) => (
   <li className={`${cName} li`}>
     <button
+      id={btn}
       onClick={clickHandler}
       onKeyDown={clickHandler}
       type="button"
